@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# Display all listening TCP and UDP ports along with their details
-netstat -l --program
+# 4-TCP_and_UDP_ports
+
+sudo ss -ltnup
+sudo ss -lxnp
